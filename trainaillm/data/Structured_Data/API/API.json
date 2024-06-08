@@ -1,0 +1,83 @@
+[
+    {
+      "error": "Invalid API Key",
+      "solution": "Ensure that you are using a valid API key. Check your API key in the Icertis Developer Portal and update your application configuration."
+    },
+    {
+      "error": "Unauthorized Access",
+      "solution": "Verify that your OAuth 2.0 token is valid and has not expired. Obtain a new token if necessary and ensure your application has the correct permissions."
+    },
+    {
+      "error": "Rate Limit Exceeded",
+      "solution": "Reduce the frequency of API calls. Implement exponential backoff in your application to handle rate limiting gracefully."
+    },
+    {
+      "error": "Resource Not Found",
+      "solution": "Check the URL and resource identifier you are requesting. Ensure that the resource exists and the endpoint is correct."
+    },
+    {
+      "error": "Bad Request",
+      "solution": "Validate the syntax of your request. Ensure all required parameters are included and formatted correctly."
+    },
+    {
+      "error": "Internal Server Error",
+      "solution": "Wait for a few moments and retry the request. If the problem persists, contact Icertis support for assistance."
+    },
+    {
+      "error": "Access Denied",
+      "solution": "Ensure that your role-based access control settings grant permission to the requested resource or operation."
+    },
+    {
+      "error": "Unsupported Media Type",
+      "solution": "Make sure that you are sending data in the correct format (e.g., JSON). Set the 'Content-Type' header to 'application/json'."
+    },
+    {
+      "error": "Validation Error",
+      "solution": "Review the error message details to identify which fields failed validation. Correct the data and retry the request."
+    },
+    {
+      "error": "Conflict",
+      "solution": "Resolve any conflicting data in your request. This might involve checking for duplicate entries or ensuring data consistency."
+    },
+    {
+      "error": "Precondition Failed",
+      "solution": "Ensure that any preconditions specified in your request headers are met. This often involves ensuring the resource state matches your expectations."
+    },
+    {
+      "error": "Method Not Allowed",
+      "solution": "Check that you are using the correct HTTP method (GET, POST, PUT, DELETE) for the endpoint you are accessing."
+    },
+    {
+      "error": "Request Timeout",
+      "solution": "Optimize your request to reduce processing time. Ensure your network connection is stable and retry the request."
+    },
+    {
+      "error": "Payload Too Large",
+      "solution": "Reduce the size of your request payload. Split large data sets into smaller batches and send them separately."
+    },
+    {
+      "error": "Service Unavailable",
+      "solution": "The ICI API service might be temporarily down for maintenance. Retry the request after some time."
+    },
+    {
+      "error": "Invalid Field",
+      "solution": "Ensure that all fields in your request match the expected field names and data types as defined in the API documentation."
+    },
+    {
+      "error": "Missing Required Parameters",
+      "solution": "Check the API documentation to ensure that all required parameters are included in your request."
+    },
+    {
+      "error": "Too Many Requests",
+      "solution": "Implement a retry mechanism with exponential backoff in your application to handle rate limiting and avoid making too many requests in a short period."
+    },
+    {
+      "error": "Network Error",
+      "solution": "Ensure your network connection is stable. Retry the request and consider implementing retry logic in your application."
+    },
+    {
+      "error": "Invalid Token",
+      "solution": "Verify that your OAuth token is correct and has not expired. Obtain a new token if necessary and update your application's configuration."
+    }
+  ]
+  

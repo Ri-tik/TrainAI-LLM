@@ -1,0 +1,82 @@
+[
+  {
+    "error": "Invalid Contract ID",
+    "solution": "Ensure that the contract ID provided exists in the ICI system and is correctly formatted."
+  },
+  {
+    "error": "Failed to Create Contract",
+    "solution": "Verify that all required fields and valid data are provided. Check for any mandatory templates or workflows."
+  },
+  {
+    "error": "Contract Approval Denied",
+    "solution": "Ensure that the approvers have the necessary permissions and that the contract complies with approval policies."
+  },
+  {
+    "error": "Contract Execution Failed",
+    "solution": "Check the electronic signature process and ensure all signatories are correctly set up and authorized."
+  },
+  {
+    "error": "Contract Renewal Alert Not Triggered",
+    "solution": "Verify the renewal settings and ensure that the alert configurations are correctly set up."
+  },
+  {
+    "error": "Unable to Retrieve Contract Data",
+    "solution": "Ensure that the contract exists and that you have the necessary permissions to access it."
+  },
+  {
+    "error": "Compliance Check Failed",
+    "solution": "Review the compliance requirements and ensure the contract meets all regulatory and internal standards."
+  },
+  {
+    "error": "Risk Assessment Not Completed",
+    "solution": "Check the risk assessment criteria and ensure that all necessary data is provided for the evaluation."
+  },
+  {
+    "error": "Contract Template Missing",
+    "solution": "Ensure that the required contract template is available in the ICI system and correctly configured."
+  },
+  {
+    "error": "Data Synchronization Error",
+    "solution": "Verify the integration settings with external systems and ensure data mapping is correctly configured."
+  },
+  {
+    "error": "Permission Denied",
+    "solution": "Check the role-based access control settings and ensure that the user has the necessary permissions."
+  },
+  {
+    "error": "Contract Clauses Not Found",
+    "solution": "Ensure that the clauses exist in the ICI clause library and are correctly referenced in the contract."
+  },
+  {
+    "error": "Invalid Contract Status",
+    "solution": "Verify that the contract status transition is valid according to the defined workflow rules."
+  },
+  {
+    "error": "Failed to Update Contract",
+    "solution": "Check for any validation errors and ensure that the contract data is correctly formatted and complete."
+  },
+  {
+    "error": "Contract Metadata Incomplete",
+    "solution": "Ensure that all mandatory metadata fields are filled out with valid data."
+  },
+  {
+    "error": "Workflow Step Skipped",
+    "solution": "Review the workflow configuration and ensure that all steps are correctly defined and executed in sequence."
+  },
+  {
+    "error": "Contract Document Corrupted",
+    "solution": "Re-upload the contract document ensuring it is in the correct format and free from corruption."
+  },
+  {
+    "error": "Contract Analysis Failed",
+    "solution": "Verify that the AI models are correctly trained and that the contract text is clear and unambiguous."
+  },
+  {
+    "error": "Unable to Generate Report",
+    "solution": "Check the report parameters and ensure that the necessary data is available and correctly configured."
+  },
+  {
+    "error": "Notification Not Sent",
+    "solution": "Verify the notification settings and ensure that the email server configuration is correct and active."
+  }
+]
