@@ -10,7 +10,7 @@
 Install TrainAILLM using Pip command
 
 ```bash
-pip3 install git+https://github.com/Ri-Tik/TrainAILLM.git
+pip3 install git+https://github.com/Ri-Tik/TrainAI-LLM.git
 ```
 
 ## Requirement
